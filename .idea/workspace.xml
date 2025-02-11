@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5841bb02-db86-48c5-9c6b-b5ed6de63344" name="Changes" comment=" 111" />
+    <list default="true" id="5841bb02-db86-48c5-9c6b-b5ed6de63344" name="Changes" comment=" eee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +49,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.models.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Silver Fox/PycharmProjects/uproger/project/myapp"
   }
 }]]></component>
@@ -111,13 +112,22 @@
       <option name="project" value="LOCAL" />
       <updated>1738141636386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" eee">
+      <option name="closed" value="true" />
+      <created>1739272525890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739272525890</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="все заебись" />
     <MESSAGE value=" 111" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 111" />
+    <MESSAGE value=" eee" />
+    <option name="LAST_COMMIT_MESSAGE" value=" eee" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
