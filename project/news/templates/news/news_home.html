@@ -12,14 +12,13 @@
                     <p>{{ el.date }}</p>
                     <p>Author: {{ el.user }}</p>
                     <a href="{% url 'news-detail' el.id %}" class="btn btn-success">read more</a>
-                    <a href="{% url 'Add'%}" class="btn btn-success">add</a>
-
+                </div>
+                <div>
+                    <a href="{% url 'Add'%}" class="btn btn-success">Add an article</a>
                 </div>
             {% endfor %}
         {% else %}
             <p>you have no news</p>
-            <a href="{% url 'Add'%}" class="btn btn-success">add</a>
-
         {% endif %}
     </div>
 {% endblock %}

@@ -20,11 +20,9 @@
     <aside>
         <ul class="menu">
             <li><a href="{% url 'home' %}"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="{% url 'about' %}"><i class="fa-solid fa-address-card"></i> About us</a></li>
-            <li><a href="{% url 'contacts' %}"><i class="fa-solid fa-address-book"></i> Contacts</a></li>
-            <li><a href="{% url 'news_home' %}"><i class="fa-solid fa-newspaper"></i> News</a></li>
-            <li><a href="{% url 'Add' %}"><i class="fa-solid fa-plus"></i> Add</a></li>
             {% if user.is_authenticated %}
+            <li><a href="{% url 'news_home' %}"><i class="fa-solid fa-newspaper"></i> News</a></li>
+            <li><a href="{% url 'Add' %}"><i class="fa-solid fa-plus"></i> Add an article</a></li>
             <li><a href="{% url 'account_email' %}"><i class="fa-solid fa-envelope"></i> Change E-mail</a></li>
             <li><a href="{% url 'account_logout' %}"><i class="fa-solid fa-sign-out"></i> Sign Out</a></li>
             {% else %}
@@ -33,12 +31,10 @@
             {% endif %}
         </ul>
     </aside>
-
     <main>
         {% block content %}
         {% endblock %}
     </main>
-
     {% if messages %}
     <div class="p-2">
         {% for message in messages %}
@@ -46,7 +42,6 @@
         {% endfor %}
     </div>
     {% endif %}
-
     {% block extra_body %}
     {% endblock %}
 </body>
