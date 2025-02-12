@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5841bb02-db86-48c5-9c6b-b5ed6de63344" name="Changes" comment="bootstrap">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/myapp/static/myapp/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/myapp/static/myapp/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/news/templates/news/Add.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/Add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/news/templates/news/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/details_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/news/templates/news/news_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/news_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/news_home.html" afterDir="false" />
-    </list>
+    <list default="true" id="5841bb02-db86-48c5-9c6b-b5ed6de63344" name="Changes" comment="bootstrap2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739379149539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bootstrap2">
+      <option name="closed" value="true" />
+      <created>1739386109323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739386109323</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,7 +160,8 @@
     <MESSAGE value=" 111" />
     <MESSAGE value=" eee" />
     <MESSAGE value="bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
+    <MESSAGE value="bootstrap2" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap2" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
