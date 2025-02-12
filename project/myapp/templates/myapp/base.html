@@ -23,7 +23,6 @@
             {% if user.is_authenticated %}
             <li><a href="{% url 'news_home' %}"><i class="fa-solid fa-newspaper"></i> News</a></li>
             <li><a href="{% url 'Add' %}"><i class="fa-solid fa-plus"></i> Add an article</a></li>
-            <li><a href="{% url 'account_email' %}"><i class="fa-solid fa-envelope"></i> Change E-mail</a></li>
             <li><a href="{% url 'account_logout' %}"><i class="fa-solid fa-sign-out"></i> Sign Out</a></li>
             {% else %}
             <li><a href="{% url 'account_login' %}"><i class="fa-solid fa-sign-in"></i> Sign In</a></li>

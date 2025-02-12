@@ -1,18 +1,34 @@
 {% extends 'myapp/base.html' %}
-
 {% block title %}Form for adding an article{% endblock %}
-
 {% block content %}
-    <div class="features">
-        <h1>Form for adding an article</h1>
-        <form method="post">
-            {% csrf_token %}
-            {{ form.title }}<br>
-            {{ form.anons }}<br>
-            {{ form.full_text }}<br>
-            {{ form.date }}<br>
-            <span>{{ error }}</span>
-            <button class="btn btn-success" type="submit">Add an article</button>
-        </form>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4" style="color: #fff;">Form for adding an article</h2>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="id_title" class="form-label">Title</label>
+                        {{ form.title }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_anons" class="form-label">Announcement</label>
+                        {{ form.anons }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_full_text" class="form-label">Full text</label>
+                        {{ form.full_text }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_date" class="form-label">Publication date</label>
+                        {{ form.date }}
+                    </div>
+                    {% if error %}
+                        <div class="alert alert-danger">{{ error }}</div>
+                    {% endif %}
+                    <button class="btn btn-success w-100" type="submit">Add an article</button>
+                </form>
+            </div>
+        </div>
     </div>
 {% endblock %}

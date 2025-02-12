@@ -23,6 +23,6 @@ class ArticlesForm(ModelForm):
             'date': DateTimeInput(attrs={
                 'class': 'form-control',
                 'placeholder': 'Publication date',
-                'type': 'datetime'
+                'type': 'datetime-local'
             }),
         }
