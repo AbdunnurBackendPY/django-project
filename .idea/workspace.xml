@@ -19,7 +19,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -49,7 +50,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.models.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Silver Fox/PycharmProjects/TZ"
   }
 }]]></component>
@@ -152,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739386109323</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bootstrap2">
+      <option name="closed" value="true" />
+      <created>1739386511200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739386511200</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bootstrap2">
+      <option name="closed" value="true" />
+      <created>1739386544912</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739386544912</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bootstrap2">
+      <option name="closed" value="true" />
+      <created>1739386663404</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739386663404</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
