@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5841bb02-db86-48c5-9c6b-b5ed6de63344" name="Changes" comment="bootstrap2" />
+    <list default="true" id="5841bb02-db86-48c5-9c6b-b5ed6de63344" name="Changes" comment="bootstrap2">
+      <change afterPath="$PROJECT_DIR$/project/news/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/news/templates/accounts/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/news/templates/accounts/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/myapp/static/myapp/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/myapp/static/myapp/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/news/templates/news/Add.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/Add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/news/templates/news/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/details_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/templates/news/news_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/news/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,15 +57,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.models.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Silver Fox/PycharmProjects/TZ"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Silver Fox/PycharmProjects/TZ&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Silver Fox\PycharmProjects\uproger\project\myapp" />
@@ -177,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739386663404</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="bootstrap2">
+      <option name="closed" value="true" />
+      <created>1739386687025</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739386687025</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
